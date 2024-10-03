@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymleaf.org">
+    <head>
+        <meta charset="UTF-8">
+        <title>사이트 바로가기</title>
+        <link href="../css/bootstrap.min.css" th:href="@{/css/bootstrap.min.css}" rel="stylesheet">
+        <style>
+            .container{
+                max-width: 560px;
+            }
+        </style>
+    </head>
+    <body>
+        <div class="container">
+            <div class="py-5 text-center">
+                <h2>중고거래 사이트</h2>
+            </div>
+            <button  class="w-100 btn btn-primary btn-lg" onclick="location.href='/login'">로그인 화면 바로가기</button>
+        </div>
+    </body>
+</html>
